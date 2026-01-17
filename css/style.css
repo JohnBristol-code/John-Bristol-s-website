@@ -1,0 +1,174 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #000000;
+}
+
+header {
+  background-color: #1dbf73;
+  color: white;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.btn {
+  background-color: rgb(255, 255, 255);
+  color: #000000;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.services {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 40px;
+}
+
+
+.card {
+  background: rgb(255, 255, 255);
+  padding: 20px;
+  width: 250px;
+  border-radius: 8px;
+}
+.navbar {
+  background-color: #ffffff;
+  padding: 15px;
+  text-align: center;
+}
+
+.navbar a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #1dbf73;
+  font-weight: bold;
+}
+
+@media (max-width: 600px) {
+  .services {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    width: 90%;
+  }
+
+  .navbar a {
+    display: block;
+    margin: 10px 0;
+  }
+}
+.contact-section {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.contact-section input,
+.contact-section textarea {
+  width: 90%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contact-section button {
+  background-color: #1dbf73;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact-section button:hover {
+  background-color: #15995d;
+}
+.navbar {
+  background-color: #ffffff;
+  padding: 15px;
+  text-align: center;
+}
+
+.navbar a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #1dbf73;
+  font-weight: bold;
+}
+img {
+  width: 300px;  /* change width */
+  height: auto;  /* keeps proportions */
+  border: 2px solid #1dbf73;  /* optional border */
+  border-radius: 10px;  /* rounded corners */
+}
+.services {
+  display: flex;
+  justify-content: center; /* centers the two links horizontally */
+  gap: 40px;               /* space between the two links */
+  flex-wrap: wrap;         /* ensures they stack on small screens */
+  margin: 30px 0;
+}
+
+.service-link {
+  display: block;
+  text-align: center;
+  width: 250px;
+  padding: 20px;
+  border: 2px solid #1dbf73;
+  border-radius: 10px;
+  text-decoration: none;
+  color: #000; /* text color */
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.service-link:hover {
+  transform: scale(1.05);
+  box-shadow: 2px 2px 15px rgba(0,0,0,0.2);
+}
+
+.service-link h3 {
+  margin-bottom: 10px;
+  color: #1dbf73; /* highlight service title */
+}
+
+.service-link p {
+  font-size: 14px;
+  color: #555;
+}
+
+
+.discord-btn {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #ffffff; /* Discord blurple */
+  color: #1dbf73(57, 168, 30);
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+  border-radius: 8px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background-color 0.2s ease;
+}
+
+.discord-btn:hover {
+  background-color: #1dbf73;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.25);
+}
+
+.discord-btn:active {
+  transform: translateY(0);
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+
